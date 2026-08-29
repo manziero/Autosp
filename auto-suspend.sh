@@ -7,7 +7,7 @@ set -Eeuo pipefail
 # ============================================================
 
 PTERODACTYL="/var/www/pterodactyl"
-AUTOSUSPEND_URL="https://raw.githubusercontent.com/manziero/Autosp/main/expdate.zip""
+AUTOSUSPEND_URL="https://raw.githubusercontent.com/manziero/Autosp/main/expdate.zip"
 BACKUP_DIR="/root/pterodactyl-auto-suspend-backup-$(date +%Y%m%d-%H%M%S)"
 TMP_DIR=""
 
